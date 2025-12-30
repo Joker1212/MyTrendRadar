@@ -1,4 +1,15 @@
 [WORD_GROUPS]
+python
+java
+jdk
+spring
+springcloud
+springboot
+nacos
+容器
+docker
+
+
 BIagent
 数仓分析Agent
 数据分析Agent
@@ -6,6 +17,9 @@ data-agent
 nl2sql
 NL2Semantics
 agent记忆
+长期记忆
+情景记忆
+短期记忆
 元数据
 大数据AI
 
@@ -17,6 +31,9 @@ agent
 ai
 人工智能
 claude
+Claude
+claude code
+kimi
 Anthropic
 DeepSeek
 glm
