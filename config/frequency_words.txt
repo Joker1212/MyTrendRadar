@@ -1,21 +1,11 @@
 [WORD_GROUPS]
-python
-java
-jdk
-spring
-springcloud
-springboot
-nacos
-容器
-docker
-
-
 BIagent
+大数据AI
 数仓分析Agent
 数据分析Agent
 data-agent
 nl2sql
-NL2Semantics
+nl2semantic
 agent记忆
 长期记忆
 情景记忆
@@ -27,6 +17,8 @@ agent记忆
 rag
 agent
 语义检索
+文档解析
+ocr
 
 ai
 人工智能
