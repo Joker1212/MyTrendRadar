@@ -30,8 +30,8 @@ platforms:
     name: "IT之家"
   - id: "juejin"
     name: "掘金"
-  - id: "github"
-    name: "GitHub"
+  # - id: "github"
+  #   name: "GitHub"
   - id: "solidot"
     name: "Solidot"
   - id: "v2ex"
@@ -113,7 +113,7 @@ rss:
 
     - id: "githubTrending"
       name: "github趋势"
-      url: "http://mshibanami.github.io/GitHubTrendingRSS"
+      url: "https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml"
 
     - id: "linuxdohot"
       name: "Linux do 热门话题"
