@@ -24,20 +24,6 @@ app:
 # name: 显示名称（可自定义，修改后不影响运行）
 # ===============================================================
 platforms:
-  - id: "toutiao"
-    name: "今日头条"
-  - id: "wallstreetcn-hot"
-    name: "华尔街见闻"
-  - id: "thepaper"
-    name: "澎湃新闻"
-  - id: "bilibili-hot-search"
-    name: "bilibili 热搜"
-  - id: "cls-hot"
-    name: "财联社热门"
-  - id: "ifeng"
-    name: "凤凰网"
-  - id: "douyin"
-    name: "抖音"
   - id: "zhihu"
     name: "知乎"
   - id: "ithome"
@@ -50,8 +36,6 @@ platforms:
     name: "Solidot"
   - id: "v2ex"
     name: "V2EX"
-  - id: "nowcoder"
-    name: "牛客网"
   - id: "pcbeta"
     name: "远景论坛"
   - id: "sspai"
@@ -97,27 +81,43 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    # - id: "hacker-news"
-    #   name: "Hacker News"
-    #   url: "https://hnrss.org/frontpage"
+    - id: "hacker-news"
+      name: "Hacker News"
+      url: "https://hnrss.org/frontpage"
       #max_age_days: 3               # 示例：只推送1天内的文章
 
-    # - id: "ruanyifeng"
-    #   name: "阮一峰的网络日志"
-    #   url: "http://www.ruanyifeng.com/blog/atom.xml"
+    - id: "ruanyifeng"
+      name: "阮一峰的网络日志"
+      url: "http://www.ruanyifeng.com/blog/atom.xml"
       #max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
       
-    # - id: "qbitai"
-    #   name: "量子位公众号"
-    #   url: "https://www.qbitai.com/feed"
+    - id: "qbitai"
+      name: "量子位公众号"
+      url: "https://www.qbitai.com/feed"
       
     - id: "xinzhiyuan"
       name: "新智元"
-      url: "https://aiera.com.cn/feed"
+      url: "https://wechat2rss.bestblogs.dev/feed/e531a18b21c34cf787b83ab444eef659d7a980de.xml
       
-    - id: "itcat"
-      name: "程序员的喵"
-      url: "https://catcoding.me/atom.xml"
+    - id: "aiworkerpaper"
+      name: "AI 开发者日报"
+      url: "https://ainews.liduos.com/"
+      
+    - id: "machineheart"
+      name: "机器之心"
+      url: "https://wechat2rss.bestblogs.dev/feed/8d97af31b0de9e48da74558af128a4673d78c9a3.xml"
+
+    - id: "jikepark"
+      name: "极客公园"
+      url: "http://mainssl.geekpark.net/rss.rss"
+
+    - id: "githubTrending"
+      name: "github趋势"
+      url: "http://mshibanami.github.io/GitHubTrendingRSS"
+
+    - id: "linuxdohot"
+      name: "Linux do 热门话题"
+      url: "https://linux.do/top.rss"
       
     - id: "meituantech"
       name: "美团技术团队"
